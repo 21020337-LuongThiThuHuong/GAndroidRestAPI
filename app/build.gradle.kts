@@ -48,4 +48,10 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.4")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
+    val activity_version = "1.9.1"
+    val fragment_version = "1.8.2"
+    implementation ("androidx.activity:activity-ktx:$activity_version")
+    implementation ("androidx.fragment:fragment-ktx:$fragment_version")
 }
